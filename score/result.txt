@@ -1,0 +1,4 @@
+#[Dataset_1  Dataset] [Method_1 Method]# [0.0217 mae], [0.9218 max-fmeasure], [0.9017 mean-fmeasure], [0.8951 adp-fmeasure], [0.9737 max-Emeasure], [0.9646 mean-Emeasure], [0.9706 adp-Emeasure], [0.9262 S-measure_alpha05], [0.8753 Fbw-measure].
+#[Dataset_1  Dataset] [Method_2 Method]# [0.0205 mae], [0.9314 max-fmeasure], [0.9134 mean-fmeasure], [0.9077 adp-fmeasure], [0.9814 max-Emeasure], [0.9667 mean-Emeasure], [0.9763 adp-Emeasure], [0.9383 S-measure_alpha05], [0.8927 Fbw-measure].
+#[Dataset_2  Dataset] [Method_1 Method]# [0.0555 mae], [0.8689 max-fmeasure], [0.8571 mean-fmeasure], [0.8621 adp-fmeasure], [0.9237 max-Emeasure], [0.9074 mean-Emeasure], [0.9234 adp-Emeasure], [0.8581 S-measure_alpha05], [0.8449 Fbw-measure].
+#[Dataset_2  Dataset] [Method_2 Method]# [0.0435 mae], [0.8927 max-fmeasure], [0.8842 mean-fmeasure], [0.8891 adp-fmeasure], [0.9542 max-Emeasure], [0.9456 mean-Emeasure], [0.9523 adp-Emeasure], [0.8939 S-measure_alpha05], [0.8729 Fbw-measure].
