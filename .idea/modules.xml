@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/SOD_Evaluation_GPU.iml" filepath="$PROJECT_DIR$/.idea/SOD_Evaluation_GPU.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SOD_Evaluation_Metrics.iml" filepath="$PROJECT_DIR$/.idea/SOD_Evaluation_Metrics.iml" />
     </modules>
   </component>
 </project>
