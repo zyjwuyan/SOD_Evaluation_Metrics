@@ -1,7 +1,9 @@
 # SOD_Evaluation_Metrics
-**A more complete python version (GPU) of the evaluation for salient object detection (with S-measure, Fbw measure, MAE, max/mean/adaptive F-measure, max/mean/adaptive E-measure, PRcurve and F-measure curve)**
+**A more complete python version (GPU) of the fast evaluation for salient object detection (with S-measure, Fbw measure, MAE, max/mean/adaptive F-measure, max/mean/adaptive E-measure, PRcurve and F-measure curve)**
 
 - Code are reimplemented from the matlab version which are available from http://dpfan.net/, modified from [metricsource1](https://github.com/Hanqer/Evaluate-SOD), [metricsource2](https://github.com/PanoAsh/Evaluation-on-salient-object-detection), and [curvesource3](https://github.com/xahidbuffon/SOD-Evaluation-Tool-Python).
+
+- Evaluating 1000 images (ECSSD, all metrics) costs about 280 seconds.
 
 - The source files should be orginized as follows:
 
