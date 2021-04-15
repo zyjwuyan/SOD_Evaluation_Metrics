@@ -3,7 +3,7 @@
 
 - Code are reimplemented from the matlab version which are available from http://dpfan.net/, modified from [metricsource1](https://github.com/Hanqer/Evaluate-SOD), [metricsource2](https://github.com/PanoAsh/Evaluation-on-salient-object-detection), and [curvesource3](https://github.com/xahidbuffon/SOD-Evaluation-Tool-Python).
 
-- Evaluating 1000 images (ECSSD, all metrics) costs about 280 seconds.
+- Evaluating 1000 images (ECSSD, all metrics) costs about 280 seconds using this implementation, while about 800 seconds for the matlab version.
 
 - The source files should be orginized as follows:
 
