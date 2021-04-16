@@ -313,11 +313,15 @@ class Eval_thread():
     def _eval_adp_f_measure(self,y_pred,y):
         beta2=0.3
         thr=y_pred.mean()*2
+        if thr>1:
+            thr=1
         y_temp = (y_pred >= thr).float()
         tp = (y_temp * y).sum()
         prec,recall=tp / (y_temp.sum() + 1e-20), tp / (y.sum() + 1e-20)
 
         adp_f_score = (1 + beta2) * prec * recall / (beta2 * prec + recall+1e-20)
+        if torch.isnan(adp_f_score):
+            adp_f_score=0.0
         return adp_f_score
     
     def _S_object(self, pred, gt):
